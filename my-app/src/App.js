@@ -1,5 +1,5 @@
 import Movie from './Movie';
-import{Row,} from "antd"
+import{Row} from "antd"
 
 function App() {
 const movieList = [
