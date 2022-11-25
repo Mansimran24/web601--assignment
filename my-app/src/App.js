@@ -27,7 +27,7 @@ const infoList = [
 	  }
 	},
 	{
-	  id: 2,
+	  id: "2",
 	  name: "Ervin Howell",
 	  username: "Antonette",
 	  email: "Shanna@melissa.tv",
@@ -50,11 +50,11 @@ const infoList = [
 	  }
 	},
 	{
-	  id: 3,
+	  id: "3",
 	  name: "Clementine Bauch",
 	  username: "Samantha",
-	  "email": "Nathan@yesenia.net",
-	  "address": {
+	  email: "Nathan@yesenia.net",
+	  address: {
 		"street": "Douglas Extension",
 		"suite": "Suite 847",
 		"city": "McKenziehaven",
@@ -64,20 +64,20 @@ const infoList = [
 		  "lng": "-47.0653"
 		}
 	  },
-	  "phone": "1-463-123-4447",
-	  "website": "ramiro.info",
-	  "company": {
+	  phone: "1-463-123-4447",
+	  website: "ramiro.info",
+	  company: {
 		"name": "Romaguera-Jacobson",
 		"catchPhrase": "Face to face bifurcated interface",
 		"bs": "e-enable strategic applications"
 	  }
 	},
 	{
-	  "id": 4,
-	  "name": "Patricia Lebsack",
-	  "username": "Karianne",
-	  "email": "Julianne.OConner@kory.org",
-	  "address": {
+	  id: "4",
+	  name: "Patricia Lebsack",
+	  username: "Karianne",
+	  email: "Julianne.OConner@kory.org",
+	  address: {
 		"street": "Hoeger Mall",
 		"suite": "Apt. 692",
 		"city": "South Elvis",
@@ -87,20 +87,20 @@ const infoList = [
 		  "lng": "-164.2990"
 		}
 	  },
-	  "phone": "493-170-9623 x156",
-	  "website": "kale.biz",
-	  "company": {
+	  phone: "493-170-9623 x156",
+	  website: "kale.biz",
+	  company: {
 		"name": "Robel-Corkery",
 		"catchPhrase": "Multi-tiered zero tolerance productivity",
 		"bs": "transition cutting-edge web services"
 	  }
 	},
 	{
-	  "id": 5,
-	  "name": "Chelsey Dietrich",
-	  "username": "Kamren",
-	  "email": "Lucio_Hettinger@annie.ca",
-	  "address": {
+	  id: "5",
+	  name: "Chelsey Dietrich",
+	  username: "Kamren",
+	  email: "Lucio_Hettinger@annie.ca",
+	  address: {
 		"street": "Skiles Walks",
 		"suite": "Suite 351",
 		"city": "Roscoeview",
@@ -110,20 +110,20 @@ const infoList = [
 		  "lng": "62.5342"
 		}
 	  },
-	  "phone": "(254)954-1289",
-	  "website": "demarco.info",
-	  "company": {
+	  phone: "(254)954-1289",
+	  website: "demarco.info",
+	  company: {
 		"name": "Keebler LLC",
 		"catchPhrase": "User-centric fault-tolerant solution",
 		"bs": "revolutionize end-to-end systems"
 	  }
 	},
 	{
-	  "id": 6,
-	  "name": "Mrs. Dennis Schulist",
-	  "username": "Leopoldo_Corkery",
-	  "email": "Karley_Dach@jasper.info",
-	  "address": {
+	  id: "6",
+	  name: "Mrs. Dennis Schulist",
+	  username: "Leopoldo_Corkery",
+	  email: "Karley_Dach@jasper.info",
+	  address: {
 		"street": "Norberto Crossing",
 		"suite": "Apt. 950",
 		"city": "South Christy",
@@ -133,20 +133,20 @@ const infoList = [
 		  "lng": "71.7478"
 		}
 	  },
-	  "phone": "1-477-935-8478 x6430",
-	  "website": "ola.org",
-	  "company": {
+	  phone: "1-477-935-8478 x6430",
+	  website: "ola.org",
+	  company: {
 		"name": "Considine-Lockman",
 		"catchPhrase": "Synchronised bottom-line interface",
 		"bs": "e-enable innovative applications"
 	  }
 	},
 	{
-	  "id": 7,
-	  "name": "Kurtis Weissnat",
-	  "username": "Elwyn.Skiles",
-	  "email": "Telly.Hoeger@billy.biz",
-	  "address": {
+	  id: "7",
+	  name: "Kurtis Weissnat",
+	  username: "Elwyn.Skiles",
+	  email: "Telly.Hoeger@billy.biz",
+	  address: {
 		"street": "Rex Trail",
 		"suite": "Suite 280",
 		"city": "Howemouth",
@@ -156,9 +156,9 @@ const infoList = [
 		  "lng": "21.8984"
 		}
 	  },
-	  "phone": "210.067.6132",
-	  "website": "elvis.io",
-	  "company": {
+	  phone: "210.067.6132",
+	  website: "elvis.io",
+	  company: {
 		"name": "Johns Group",
 		"catchPhrase": "Configurable multimedia task-force",
 		"bs": "generate enterprise e-tailers"
