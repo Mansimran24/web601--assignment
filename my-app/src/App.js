@@ -1,5 +1,6 @@
-import info from "./info";
-import{Row} from "antd"
+import info from "./Information";
+import{Row} from "antd";
+import info from "./Information";
 
 function App() {
 const infoList = [
