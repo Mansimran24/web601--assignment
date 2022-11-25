@@ -1,4 +1,3 @@
-import info from "./Information";
 import{Row} from "antd";
 import info from "./Information";
 
