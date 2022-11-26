@@ -1,8 +1,15 @@
 import { Button, Checkbox, Form, Input, Row, Col } from 'antd';
 import React from 'react';
+import {useNavigate} from "react-router-dom";
 const Login = () => {
+    const navigate = useNavigate();
   const onFinish = (values) => {
-    console.log('Success:', values);
+    if (values.username === "admin" && values.password === "password123") {
+
+        console.log("Login Successfull....!!!")
+        navigate("/main")
+    }
+  
   };
   const onFinishFailed = (errorInfo) => {
     console.log('Failed:', errorInfo);

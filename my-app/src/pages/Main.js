@@ -26,7 +26,7 @@ const handleClick = () =>{
         </Row>
        <Row>
         <Col>
-        <Button type="primary" onClick={handleClick}>trigger</Button></Col>
+        <Button type="primary" onClick={handleClick}>Logout</Button></Col>
        </Row>
         
         </>
