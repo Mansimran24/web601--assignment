@@ -1,13 +1,17 @@
 import {Row, Col, Button} from "antd";
+import {useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import {Link} from "react-router-dom";
-export default function Main(){
+export default function Main(props){
 
     const navigate = useNavigate()
 const handleClick = () =>{
     console.log("Something Happened")
     navigate("/login")
-}
+};
+useEffect(() =>{
+    console.log(props.status);
+}, [props]);
 
     return(
         
