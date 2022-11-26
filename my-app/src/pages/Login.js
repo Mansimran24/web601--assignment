@@ -1,12 +1,13 @@
 import { Button, Checkbox, Form, Input, Row, Col } from 'antd';
 import React from 'react';
 import {useNavigate} from "react-router-dom";
-const Login = () => {
+const Login = (props) => {
     const navigate = useNavigate();
   const onFinish = (values) => {
     if (values.username === "admin" && values.password === "password123") {
 
         console.log("Login Successfull....!!!")
+        props.auth()
         navigate("/main")
     }
   

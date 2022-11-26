@@ -8,15 +8,20 @@ import {useState} from "react";
 
 function App() {
 	const[status, setStatus] = useState(false);
+
+const authenticate =() =>{
+	setStatus(true)
+}
+const logout =()=>{
+	setStatus(false)
+}
+
   return (
     <div>
-
-
-
       <Routes>
-<Route path= "/login" element={<Login/>}/>
+<Route path= "/login" element={<Login auth={authenticate}/>} />
 <Route path= "/about" element={<About />}/>
-<Route path= "/main" element={<Main status = {status} />}/>
+<Route path= "/main" element={<Main logout ={logout} status = {status} />}/>
 </Routes>
     </div>
   );

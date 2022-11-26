@@ -7,11 +7,17 @@ export default function Main(props){
     const navigate = useNavigate()
 const handleClick = () =>{
     console.log("Something Happened")
+    props.logout();
     navigate("/login")
 };
 useEffect(() =>{
-    console.log(props.status);
-}, [props]);
+    if(props.status){
+        console.log("Authentication successful")
+    }
+    else {
+        navigate("/login")
+    }
+}, []);
 
     return(
         
