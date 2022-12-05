@@ -15,7 +15,7 @@ const Login = (props)=> {
   };
 
   const onFinishFailed = (errorInfo) => {
-    console.log("Login Failed!", errorInfo);
+    console.log("Error!", errorInfo);
   };
   return (
     <div style={{ marginTop: "30px" }}>
@@ -44,7 +44,7 @@ const Login = (props)=> {
           <Form.Item
             label="Username"
             name="username"
-            rules={[{ required: true, message: "Please Input your username!" }]}
+            rules={[{ required: true, message: "Enter username!" }]}
           >
             <Input />
           </Form.Item>
@@ -54,7 +54,7 @@ const Login = (props)=> {
             rules={[
               {
                 required: true,
-                message: "Please input your password!",
+                message: "Enter password!",
               },
             ]}
           >

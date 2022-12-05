@@ -10,19 +10,16 @@ const About= ()=> {
             <div class="col-lg-5">
               <h1 class="font-weight-light">About Us</h1>
               <p>
-                If you are looking for a professional yet truly outstanding
-                website that is built specifically to your business objectives
-                and success, you need a reliable and expert website design
-                company. Specializing in WordPress website design and
-                development, we are your go to expert from simple informative
-                websites, to custom and advanced websites with integrations and
-                functionalities, regular website maintenance, training and
-                support, we are in your corner. Our website design company is
-                based in Halifax NS servicing all Canada and have worked in many
-                industries including restaurants, construction and contractors,
-                retail ecommerce, transportation, local ecommerce, fashion and
-                clothing, tourism, accounting, manufacturing and industry, and
-                more.
+              React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
+              React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+
+Declarative views make your code more predictable and easier to debug.
+Build encapsulated components that manage their own state, then compose them to make complex UIs.
+
+Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
+We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.
+
+React can also render on the server using Node and power mobile apps using React Native.
               </p>
             </div>
           </div>
